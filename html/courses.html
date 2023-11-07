@@ -1,0 +1,67 @@
+<!--Name: Haiyan He
+    File name: resume.html
+    Course/Section: CST8285/302
+    Date: Jun 28, 2023
+    Description: It includes an information about my curriculum, a list of the whole courses that I should finish so far.
+    image source: https://www.algonquincollege.com/
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <script src="../javascript/courses.js" type="text/JavaScript" defer></script>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <h1>Course List</h1>
+        <nav class="top-nav">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="resume.html" target="_blank">Resume</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="options">
+            <input type="text" id="searchQuery" placeholder="Search for a course">
+            <button type="button" id="myBtn">Submit</button>
+        </div>
+        <div class="options">
+            <label for="filterQuery">Filter by Level:</label>
+            <select id="filterQuery">
+                <option value="0">All Levels</option>
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+            </select>
+        </div>
+        <div class="options">
+            <label for="sortQuery">Sort by: </label>
+            <select id="sortQuery">
+                <option value="1">Ascend Sort</option>
+                <option value="2">Descend Sort</option>
+            </select>
+        </div>
+    </div>
+    <div id="container">
+    </div>
+    <footer>
+        <img src="../images/algonquin-logo.png" alt="this is an Algonquin College logo.">
+        <address>
+            <strong>Ottawa</strong>
+            <br>
+            1385 Woodroffe Avenue
+            <br>
+            Ottawa, Ontario K2G 1V8
+            <br>
+            613-727-4723
+        </address>
+        <nav class="bottom-nav"><a href="#top">Return To Top</a></nav>
+        <p>&copy;2023 all rights reserved. Author: Haiyan He. Date: Jun 28, 2023.</p>
+    </footer>
+</body>
+
+</html>
